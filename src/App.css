@@ -1,38 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  top: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+
+  background-color: rgba(160, 169, 194, 0.97);
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2px+2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cellInput {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0%;
+  border: 1px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  border-collapse: collapse;
+  border: 3px solid bisque;
+  background-color: bisque;
+  margin: auto;
+}
+
+td {
+  padding: 0;
+}
+
+.Button {
+  margin-top: 20px;
+}
+
+.resetButton {
+  background-color: darkslateblue;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.solveButton {
+  background-color: darkslateblue;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.checkButton {
+  background-color: darkslateblue;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.bBorder {
+  border-bottom: 2px solid black;
+}
+
+.rBorder {
+  border-right: 2px solid black;
 }
